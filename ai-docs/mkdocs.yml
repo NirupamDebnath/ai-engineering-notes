@@ -27,3 +27,5 @@ nav:
   - Home: index.md
   - ML Basics: ml/basics.md
   - System Design: system-design/ai-systems.md
+  - Setup:
+      - Git SSH authentication: setup/git-ssh-authentication.md
