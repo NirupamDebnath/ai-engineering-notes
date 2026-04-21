@@ -29,3 +29,4 @@ nav:
   - System Design: system-design/ai-systems.md
   - Setup:
       - Git SSH authentication: setup/git-ssh-authentication.md
+      - OpenCalaw Installation in VM: setup/opencalaw-installation-in-vm.md
