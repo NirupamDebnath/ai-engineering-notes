@@ -41,7 +41,7 @@ This is the quick-orientation file for the AI engineering learning journey. Upda
 - Created an assistant guide in `AGENTS.md`.
 - Added a persistent learning progress tracker.
 - Added starter documentation sections for ML basics, AI system design, notebooks, and projects.
-- Expanded the OpenClaw installation page using the `Openclaw.minder` mind map.
+- Expanded the OpenClaw installation page using the `mindmaps/Openclaw.minder` mind map.
 - Added Mermaid diagram setup documentation and agent guidance for diagram usage.
 - Added local MkDocs serving instructions.
 

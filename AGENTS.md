@@ -19,10 +19,12 @@ Use that file as the quick state document for current topics, completed work, ac
 - `ai-docs/docs/system-design/`: AI system design and architecture notes.
 - `ai-docs/docs/notebooks/`: Notebook index and summaries.
 - `ai-docs/docs/projects/`: Project notes, experiments, and implementation logs.
+- `mindmaps/`: Source mind-map files, such as `.minder` planning documents.
 
 ## Assistant Responsibilities
 
 - Keep documentation organized into clear topic folders.
+- Store `.minder` files in `mindmaps/` and reference them from the related documentation page.
 - Prefer small, well-named Markdown files over one large catch-all note.
 - Add or update navigation in `ai-docs/mkdocs.yml` when new public docs pages are created.
 - Keep `learning-progress.md` current so future sessions do not need to re-read the entire repo.

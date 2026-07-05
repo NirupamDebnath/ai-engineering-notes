@@ -2,7 +2,7 @@
 
 Status: In progress
 
-This page captures the OpenClaw VM setup plan from `Openclaw.minder`. Use it as a practical checklist for installing OpenClaw, securing the host, configuring agent behavior, and controlling cost.
+This page captures the OpenClaw VM setup plan from `mindmaps/Openclaw.minder`. Use it as a practical checklist for installing OpenClaw, securing the host, configuring agent behavior, and controlling cost.
 
 ## Goal
 
