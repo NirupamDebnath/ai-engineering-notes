@@ -25,8 +25,13 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Learning Progress: progress/learning-progress.md
   - ML Basics: ml/basics.md
   - System Design: system-design/ai-systems.md
+  - Notebooks: notebooks/index.md
+  - Projects: projects/index.md
   - Setup:
+      - Serve docs locally: setup/serve-docs-locally.md
+      - Mermaid diagrams: setup/mermaid-diagrams.md
       - Git SSH authentication: setup/git-ssh-authentication.md
-      - OpenCalaw Installation in VM: setup/opencalaw-installation-in-vm.md
+      - OpenClaw Installation in VM: setup/opencalaw-installation-in-vm.md

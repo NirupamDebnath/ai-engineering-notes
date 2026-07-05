@@ -153,6 +153,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+ai-docs/site/
 
 # mypy
 .mypy_cache/
