@@ -2,19 +2,23 @@ site_name: AI Engineering Notes
 
 theme:
   name: material
+  font: false
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+extra_css:
+  - stylesheets/compact-readability.css
 
 markdown_extensions:
   - pymdownx.superfences:
