@@ -1,8 +1,12 @@
 # Machine Learning Basics
 
-Status: Planned
+Status: In progress
 
 Use this section for foundational machine learning notes.
+
+## Current Notes
+
+- [Linear Regression](linear-regression.md)
 
 ## Topics To Cover
 
@@ -16,9 +20,9 @@ Use this section for foundational machine learning notes.
 
 ## Notes
 
-Add short, practical notes here first. Split into separate pages later when a topic grows large enough to deserve its own file.
+Linear regression has been split into its own page because it includes math derivations and implementation notes.
 
 ## Open Questions
 
-- Which ML foundation topic should be studied first?
 - Which dataset or notebook should be used for hands-on practice?
+- Should the next CS229 note cover classification/logistic regression or model evaluation?

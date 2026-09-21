@@ -1,0 +1,7 @@
+jupyterlab
+matplotlib
+mkdocs
+mkdocs-material
+numpy
+pandas
+scikit-learn

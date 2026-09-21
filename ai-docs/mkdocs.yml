@@ -20,7 +20,13 @@ theme:
 extra_css:
   - stylesheets/compact-readability.css
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -30,7 +36,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Learning Progress: progress/learning-progress.md
-  - ML Basics: ml/basics.md
+  - ML Basics:
+      - Overview: ml/basics.md
+      - Linear Regression: ml/linear-regression.md
   - System Design: system-design/ai-systems.md
   - Notebooks: notebooks/index.md
   - Projects: projects/index.md

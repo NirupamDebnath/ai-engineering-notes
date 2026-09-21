@@ -1,6 +1,6 @@
 # Notebook Index
 
-Status: Planned
+Status: In progress
 
 Use this page to track Jupyter notebooks and their learning value.
 
@@ -19,7 +19,17 @@ Use this page to track Jupyter notebooks and their learning value.
 
 | Notebook | Status | Topic | Summary |
 | --- | --- | --- | --- |
-| _None yet_ | Planned | TBD | Add entries as notebooks are created. |
+| `notebooks/exercises/002-linear-regression-baseline.ipynb` | In progress | Linear regression | Guided baseline experiment using scikit-learn's built-in diabetes dataset, with questions on data inspection, train/test splits, metrics, coefficients, and residuals. |
+
+## Storage Location
+
+Keep unsolved exercises in `notebooks/exercises/` and completed solutions in `notebooks/solutions/`. Keep their summaries and learning notes in this documentation section.
+
+Install notebook dependencies from the repository root before starting JupyterLab:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Suggested Naming
 
