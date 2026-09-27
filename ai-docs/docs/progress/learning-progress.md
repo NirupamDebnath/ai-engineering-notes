@@ -28,9 +28,10 @@ This is the quick-orientation file for the AI engineering learning journey. Upda
 | OpenClaw setup | In progress | `ai-docs/docs/setup/opencalaw-installation-in-vm.md` | Mind-map checklist added for install, security, SSH tunnel, agent rules, and cost optimization. |
 | ML basics | In progress | `ai-docs/docs/ml/basics.md` | Foundations section started. |
 | Linear regression | Done | `ai-docs/docs/ml/linear-regression.md` | Added CS229 Lecture 2 notes, math derivation, gradient descent, normal equation, probabilistic interpretation, locally weighted regression, and practical Python implementation. |
-| CS229 Lecture 3 | Watched | _Notes pending_ | Lecture watched; capture the concepts and add practice work next. |
+| Model evaluation | Done | `ai-docs/docs/ml/model-evaluation.md` | Added splits, leakage, baselines, regression metrics, classification metrics, and a practical evaluation workflow. |
+| CS229 Lecture 3 | In progress | `notebooks/exercises/003-logistic-regression-classification.ipynb` | Lecture watched; logistic-regression practice notebook is ready to complete. |
 | AI system design | Planned | `ai-docs/docs/system-design/ai-systems.md` | Placeholder created for architecture notes. |
-| Jupyter notebooks | In progress | `notebooks/exercises/`, `notebooks/solutions/`, `ai-docs/docs/notebooks/index.md` | Exercises and completed solutions are separated; the first guided linear regression notebook is ready to complete. |
+| Jupyter notebooks | In progress | `notebooks/exercises/`, `notebooks/solutions/`, `ai-docs/docs/notebooks/index.md` | Exercises and completed solutions are separated; the first guided linear regression notebook is complete. |
 | Projects | Planned | `ai-docs/docs/projects/index.md` | Project index created; add one page per project or experiment. |
 
 ## Active Work
@@ -57,14 +58,15 @@ This is the quick-orientation file for the AI engineering learning journey. Upda
 - Added Makefile commands for full environment setup, local docs preview, docs builds, and JupyterLab.
 - Consolidated documentation and machine-learning dependencies in the root `requirements.txt`.
 - Watched CS229 Lecture 3; notes and exercises are still to be captured.
+- Completed the guided linear regression baseline notebook, including evaluation, residual analysis, and a single-feature comparison.
+- Added a model evaluation note and a guided logistic regression classification exercise.
 
 ## Next Actions
 
 - Verify exact OpenClaw configuration keys for heartbeat, caching, and token limits.
 - Add OpenClaw prerequisites, environment details, and validation steps after the setup is tested.
-- Complete `notebooks/exercises/002-linear-regression-baseline.ipynb` step by step, then save the finished version in `notebooks/solutions/`.
-- Add a short model evaluation note covering train/test splits, leakage, MAE, RMSE, and R-squared.
-- Capture CS229 Lecture 3 notes, then continue with the next lecture or a related classification exercise.
+- Complete `notebooks/exercises/003-logistic-regression-classification.ipynb` step by step.
+- Capture CS229 Lecture 3 notes after completing the classification exercise.
 
 ## Open Questions
 
@@ -76,7 +78,8 @@ This is the quick-orientation file for the AI engineering learning journey. Upda
 
 | Notebook | Status | Summary | Follow-up |
 | --- | --- | --- | --- |
-| `exercises/002-linear-regression-baseline.ipynb` | In progress | Guided linear regression baseline on the diabetes dataset. | Complete the exercise, then save the solved version in `solutions/` and document results. |
+| `solutions/002-linear-regression-baseline.ipynb` | Done | Linear regression baseline on the diabetes dataset, including evaluation, residual analysis, and a single-feature comparison. | Add a model evaluation note, then continue to logistic regression/classification. |
+| `exercises/003-logistic-regression-classification.ipynb` | Planned | Logistic regression classification using the breast-cancer dataset. | Complete the exercise and compare precision, recall, and decision thresholds. |
 
 ## Project Log
 

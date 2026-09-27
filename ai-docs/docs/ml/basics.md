@@ -7,14 +7,13 @@ Use this section for foundational machine learning notes.
 ## Current Notes
 
 - [Linear Regression](linear-regression.md)
+- [Model Evaluation](model-evaluation.md)
 
 ## Topics To Cover
 
 - Problem framing: regression, classification, ranking, generation
 - Datasets, features, labels, and leakage
-- Train, validation, and test splits
-- Metrics and evaluation tradeoffs
-- Baseline models
+- Logistic regression and binary classification
 - Overfitting, underfitting, and regularization
 - Error analysis
 
@@ -24,5 +23,4 @@ Linear regression has been split into its own page because it includes math deri
 
 ## Open Questions
 
-- Which dataset or notebook should be used for hands-on practice?
-- Should the next CS229 note cover classification/logistic regression or model evaluation?
+- How should metric selection change when false positives and false negatives have different costs?

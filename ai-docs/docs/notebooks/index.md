@@ -19,7 +19,8 @@ Use this page to track Jupyter notebooks and their learning value.
 
 | Notebook | Status | Topic | Summary |
 | --- | --- | --- | --- |
-| `notebooks/exercises/002-linear-regression-baseline.ipynb` | In progress | Linear regression | Guided baseline experiment using scikit-learn's built-in diabetes dataset, with questions on data inspection, train/test splits, metrics, coefficients, and residuals. |
+| `notebooks/solutions/002-linear-regression-baseline.ipynb` | Done | Linear regression | Baseline experiment using scikit-learn's diabetes dataset, including data inspection, metrics, coefficients, residuals, and a single-feature comparison. |
+| `notebooks/exercises/003-logistic-regression-classification.ipynb` | Planned | Logistic regression | Guided classification exercise using scikit-learn's breast-cancer dataset, with questions on stratified splits, baselines, probabilities, confusion matrices, and thresholds. |
 
 ## Storage Location
 
@@ -38,5 +39,5 @@ Use names that sort naturally and describe the topic:
 ```text
 001-train-test-split.ipynb
 002-linear-regression-baseline.ipynb
-003-classification-metrics.ipynb
+003-logistic-regression-classification.ipynb
 ```

@@ -39,6 +39,7 @@ nav:
   - ML Basics:
       - Overview: ml/basics.md
       - Linear Regression: ml/linear-regression.md
+      - Model Evaluation: ml/model-evaluation.md
   - System Design: system-design/ai-systems.md
   - Notebooks: notebooks/index.md
   - Projects: projects/index.md
